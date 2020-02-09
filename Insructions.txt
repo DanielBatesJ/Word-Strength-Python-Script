@@ -1,0 +1,14 @@
+Name: Daniel Bates
+Date: 2019
+
+This script reads a text document stored in a file, and based off a list of words to ignore, counts how 
+many times each word occurs in the file, prints out results.
+
+Setup:
+	File Path: At the start of 'main.py', there is a variable called 'path', change string in the quotes to the location of the string you want to test.
+	Number of printed results: The variable 'maxNum' is initilized to '5', change this value to the number of results you want printed.
+	Words ignored by the script: The dictionary 'boringWords' contains indexes of all words the script will ignore. Add or remove words any words
+		you want, any words in this dictionary will not appear in your results.
+
+
+TODO: GUI to allow users to change parameters easier, create an executable.
